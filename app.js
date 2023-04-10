@@ -1,7 +1,7 @@
 import { createClient } from 'redis';
 import axios from 'axios';
 import express from 'express';
-let port = process.env.PORT || 9920;
+let port = process.env.PORT || 9820;
 let app = express();
 
 const client = createClient(
