@@ -11,6 +11,7 @@ const client = createClient(
     }
 );
 
+//data route
 app.get('/data',async (req,res) => {
     const client = createClient(
         {
