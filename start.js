@@ -1,2 +1,2 @@
 require('@babel/register')({})
-module.exports = require('./redisapps')
+module.exports = require('./redisapp')
